@@ -1,0 +1,6 @@
+to take a picture: raspistill -o imagename.jpg
+to analyze picture for qrcode: zbarimg imagename.jpg
+to take a video: raspivid -o video.h264 -t 10000
+to convert video to mp4: MP4Box -add video.h264 video.mp4
+to play video: omxplayer video.mp4
+to see picture: gpicview imagename.jpg
